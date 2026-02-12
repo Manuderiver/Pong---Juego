@@ -1,14 +1,16 @@
-# 🏓 Pong - Juego Clásico en Java
+# 🏓 Pong - Web Edition
 
-Este proyecto es una implementación del juego **Pong** desarrollada para practicar los fundamentos de Java y la programación orientada a objetos (POO).
+Este es un juego de **Pong** clásico desarrollado con tecnologías web estándar. Es un proyecto ideal para entender la manipulación del DOM y el bucle de renderizado (game loop) en JavaScript.
 
-##  Instalación y Ejecución
-[cite_start]Para ejecutar este proyecto, sigue los pasos estandarizados de la terminal[cite: 22]:
+## Tecnologías utilizadas
+* **HTML5**: Estructura del juego y contenedor de gráficos.
+* **CSS3**: Estilos, colores y diseño responsivo.
+* **JavaScript**: Lógica del juego, movimiento de paletas y física de la pelota.
 
-1. [cite_start]**Prerrequisitos**: Asegúrate de tener instalado el JDK (Java Development Kit)[cite: 3, 4].
-   - [cite_start]Verificar compilador: `javac --version` [cite: 14]
-   - [cite_start]Verificar máquina virtual: `java --version` [cite: 15]
+## Cómo jugar
+No requiere instalación. Solo tienes que:
+1. Clonar el repositorio.
+2. Abrir el archivo `index.html` en cualquier navegador moderno.
 
-2. [cite_start]**Compilación**: Navega hasta la carpeta del proyecto y compila los archivos fuente[cite: 33]:
-   ```bash
-   javac *
+## Controles
+* El juego utiliza eventos de teclado para mover las paletas en tiempo real.
